@@ -1,0 +1,71 @@
+html, body {
+  background-color: white;
+}
+
+#prices_cont {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prices_table {
+  margin-top: 3%;
+  width: 80%;
+  font-size: 2.8vmin;
+  color: rgb(61, 61, 61);
+}
+
+@media screen and (max-width: 800px) {
+  #prices_table {
+    width: 90%;
+  }
+}
+
+table, th, td {
+  border: 1px solid rgb(119, 119, 119);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 2% 1%;
+}
+
+#table_caption {
+  caption-side: bottom;
+  padding-top: 2%;
+  font-size: 2.8vmin;
+  margin-bottom: 5%;
+}
+
+.prices_text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 2.8vmin;
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  font-size: 2.9vmin;
+}
+
+@media screen and (max-width: 800px) {
+  #prices_table {
+    font-size: 3vmin;
+  }
+
+  .prices_text {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 3.1vmin;
+  }
+
+  .prices_text h1 {
+    font-size: 3.1vmin;
+  }
+}

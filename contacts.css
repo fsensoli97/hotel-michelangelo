@@ -1,0 +1,54 @@
+html, body {
+  background-color: rgb(250, 253, 255);
+}
+
+#contacts_cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3%;
+  margin-top: 7%;
+  padding: 3% 0%;
+  padding-bottom: 30%;
+  border: solid 1px rgb(201, 201, 201);
+}
+
+@media screen and (max-width: 800px) {
+  #contacts_cont {
+    row-gap: 5%;
+  }
+}
+
+.contacts_row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contacts_item {
+  font-size: 3vmin;
+  flex: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts_item {
+    font-size: 3.2vmin;
+  }
+}
+
+#contacts_img {
+  max-width: 80%;
+  margin-top: 5%;
+  height: auto;
+  cursor: default;
+  pointer-events: none;
+}
+
+.contact_icon {
+  background-color: aqua;
+  padding: 3%;
+  border-radius: 50%;
+}
+
+.circle_icon {
+  color: rgb(36, 207, 207);
+}
