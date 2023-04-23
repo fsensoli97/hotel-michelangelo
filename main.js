@@ -14,7 +14,15 @@ const gallery = [
   'images/chef.jpeg',
   'images/lasagna.jpeg',
   'images/antipasto.jpeg',
-  'images/risotto.jpeg'
+  'images/risotto.jpeg',
+  'images/restaurant1.jpg',
+  'images/bar1.jpg',
+  'images/terrace3.jpg',
+  'images/restaurant2.jpg',
+  'images/bar2.jpg',
+  'images/terrace4.jpg',
+  'images/restaurant3.jpg',
+  'images/bar3.jpg',
 ]
 
 let current_img = 0;
